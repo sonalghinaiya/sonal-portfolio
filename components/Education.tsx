@@ -49,13 +49,13 @@ export default function Education() {
               className="overflow-hidden bg-slate-800/50 border border-slate-700 rounded-2xl hover:border-cyan-500/50 hover:bg-slate-800 transition-all duration-300 hover:-translate-y-2 group backdrop-blur"
             >
               {/* Gradient top bar */}
-              <div className={`h-1 bg-gradient-to-r ${edu.gradient}`} />
+              <div className={`h-1 bg-linear-to-r ${edu.gradient}`} />
 
               <div className="p-6 sm:p-8">
                 {/* Icon + Status */}
                 <div className="flex items-start justify-between mb-6">
                   <div
-                    className={`p-3 rounded-lg bg-gradient-to-br ${edu.gradient} group-hover:scale-110 transition-transform shadow-lg`}
+                    className={`p-3 rounded-lg bg-linear-to-r ${edu.gradient} group-hover:scale-110 transition-transform shadow-lg`}
                   >
                     <GraduationCap className="h-8 w-8 text-white" />
                   </div>
@@ -84,10 +84,8 @@ export default function Education() {
 
                   {/* Institution */}
                   <div className="flex items-start gap-2 text-sm">
-                    <BookOpen className="h-5 w-5 text-slate-400 mt-0.5 flex-shrink-0" />
-                    <span className="text-slate-300">
-                      {edu.institution}
-                    </span>
+                    <BookOpen className="h-5 w-5 text-slate-400 mt-0.5 shrink-0" />
+                    <span className="text-slate-300">{edu.institution}</span>
                   </div>
 
                   {/* Period */}

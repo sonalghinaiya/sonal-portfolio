@@ -131,7 +131,7 @@ export default function Projects() {
               className="overflow-hidden bg-slate-800/50 border border-slate-700 hover:border-cyan-500/50 hover:bg-slate-800 transition-all duration-300 hover:-translate-y-2 group backdrop-blur rounded-2xl"
             >
               {/* Top Gradient Bar */}
-              <div className={`h-1 bg-gradient-to-r ${project.gradient}`} />
+              <div className={`h-1 bg-linear-to-r ${project.gradient}`} />
 
               <div className="p-6 sm:p-8">
                 {/* Title + Icon */}
@@ -174,7 +174,7 @@ export default function Projects() {
                     {project.tech.map((tech) => (
                       <Badge
                         key={tech}
-                        className={`bg-gradient-to-r ${project.gradient} text-white border-0 shadow-lg px-3 py-1 text-xs sm:text-sm`}
+                        className={`bg-linear-to-r ${project.gradient} text-white border-0 shadow-lg px-3 py-1 text-xs sm:text-sm`}
                       >
                         {tech}
                       </Badge>

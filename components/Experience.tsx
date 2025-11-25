@@ -40,7 +40,7 @@ export default function Experience() {
         <div className="max-w-4xl mx-auto"> 
           <div className="overflow-hidden bg-navy-medium border border-slate-800/50 rounded-2xl hover:border-cyan-400/40 hover:shadow-glow-cyan-sm transition-all duration-300 backdrop-blur">
             {/* Gradient top bar */}
-            <div className="h-1 bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-500" />
+            <div className="h-1 bg-linear-to-r from-cyan-500 via-blue-500 to-purple-500" />
 
             <div className="p-6 sm:p-8">
               {/* Top: Role / Company / Type */}
@@ -86,7 +86,7 @@ export default function Experience() {
                       key={index}
                       className="flex items-start gap-3 text-gray-300 group"
                     >
-                      <CheckCircle2 className="h-5 w-5 text-cyan-400 flex-shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
+                      <CheckCircle2 className="h-5 w-5 text-cyan-400 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
                       <span>{item}</span>
                     </li>
                   ))}
