@@ -112,7 +112,7 @@ export default function Contact() {
             </div>
 
             {/* Availability Card */}
-            <div className="p-6 bg-gradient-to-br from-green-500/20 to-emerald-500/20 border-2 border-green-500/30 rounded-xl backdrop-blur">
+            <div className="p-6 bg-linear-to-br from-green-500/20 to-emerald-500/20 border-2 border-green-500/30 rounded-xl backdrop-blur">
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse shadow-lg shadow-green-500/50" />
                 <h3 className="font-semibold text-white">Available for Work</h3>
