@@ -1,5 +1,6 @@
 "use client"
 
+import About from "@/components/About";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 
@@ -8,6 +9,7 @@ export default function Home() {
    <main className="bg-slate-950 min-h-screen">
       <Navbar/>
       <Hero />
+      <About />
    </main>
   );
 }
