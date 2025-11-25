@@ -33,6 +33,9 @@ export const metadata: Metadata = {
       "Passionate MERN Stack Developer crafting scalable web applications with modern JavaScript frameworks and clean code",
     type: "website",
   },
+  icons: {
+    icon: "/favicon.ico"
+  }
 };
 
 export default function RootLayout({
