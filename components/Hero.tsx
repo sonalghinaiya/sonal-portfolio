@@ -68,8 +68,8 @@ export default function Hero() {
           {/* Stats */}
           <div className="flex flex-wrap justify-center gap-8 pt-4">
             <div className="text-center">
-              <div className="text-3xl font-bold text-cyan-400">11+</div>
-              <div className="text-sm text-slate-400">Months Experience</div>
+              <div className="text-3xl font-bold text-cyan-400">1</div>
+              <div className="text-sm text-slate-400">Year Experience</div>
             </div>
             <div className="w-px bg-slate-700" />
             <div className="text-center">

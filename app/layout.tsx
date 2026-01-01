@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sonal Ghinaiya | MERN Stack Developer Portfolio",
   description:
-    "MERN Stack Developer with 11+ months experience building scalable web applications. Specialized in React.js, Node.js, Express.js, and MongoDB.",
+    "MERN Stack Developer with 1 Year experience building scalable web applications. Specialized in React.js, Node.js, Express.js, and MongoDB.",
   keywords: [
     "MERN Stack Developer",
     "React Developer",

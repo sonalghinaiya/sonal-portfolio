@@ -71,7 +71,7 @@ export default function About() {
                 </div>
                 <div className="pl-4">
                   <span className="text-cyan-400">experience</span>:{" "}
-                  <span className="text-orange-400">"11+ months"</span>,
+                  <span className="text-orange-400">"1 Year"</span>,
                 </div>
                 <div className="pl-4">
                   <span className="text-cyan-400">skills</span>: [

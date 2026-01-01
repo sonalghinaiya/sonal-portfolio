@@ -61,7 +61,7 @@ export default function Experience() {
                   <div className="flex flex-wrap gap-4 text-sm text-gray-400">
                     <div className="flex items-center gap-2">
                       <Calendar className="h-4 w-4 text-cyan-400" />
-                      <span>January 2025 - Present</span>
+                      <span>January 2025 - December 2025</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <MapPin className="h-4 w-4 text-cyan-400" />
@@ -114,14 +114,14 @@ export default function Experience() {
           </div>
 
           {/* Currently Working Indicator */}
-          <div className="flex justify-center mt-8">
+          {/* <div className="flex justify-center mt-8">
             <div className="flex items-center gap-3">
               <div className="w-3 h-3 rounded-full bg-cyan-400 animate-pulse shadow-glow-cyan" />
               <span className="text-sm text-gray-400 font-medium">
                 Currently Working
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
